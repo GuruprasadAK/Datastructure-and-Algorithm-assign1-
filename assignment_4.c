@@ -1,32 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include<string.h>
-/*
-int main()
-{
-    char ch[1000];
-
-    FILE *file;
-    int count = 0;
-
-    //Opens a file in read mode
-    file = fopen("guru2.txt","r");
-
-    //Gets each character till end of file is reached
-    while((fgets(ch,file)) != EOF)
-        {
-       if((strcmp(ch,"musk"))!= NULL)
-       {
-
-            count++;
-    }
-    }
-
-    printf("Number of words present in given file: %d", count);
-    fclose(file);
-
-    return 0;
-}*/
 int main()
 {
    char *str= "Musk";
